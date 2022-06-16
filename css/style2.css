@@ -64,7 +64,7 @@
    display: flex;
 }
 .card1 {
-   background-color: rgb(255, 104, 29);
+   background-color: rgb(174, 174, 174);
    width: 300px;
    height: 350px;
    border-radius: 20px;
@@ -111,8 +111,8 @@
    translateY(-20%);
 }
 .card1:hover {
-   box-shadow: 0 0 0 7px rgb(211, 74, 0),
-               0 0 0 7px rgb(211, 74, 0);
+   box-shadow: 0 0 0 7px rgb(147, 147, 147),
+               0 0 0 7px rgb(147, 147, 147);
 }
 
 .empty {
@@ -120,7 +120,7 @@
 }
 
 .card2 {
-   background-color: rgb(255, 104, 29);
+   background-color: rgb(174, 174, 174);
    width: 300px;
    height: 350px;
    border-radius: 20px;
@@ -166,9 +166,9 @@
    transform: translateX(+10%)
    translateY(-20%);
 }
-.card2:hover {
-   box-shadow: 0 0 0 7px rgb(211, 74, 0),
-               0 0 0 7px rgb(211, 74, 0);
+.card2:hover:hover {
+   box-shadow: 0 0 0 7px rgb(147, 147, 147),
+               0 0 0 7px rgb(147, 147, 147);
 }
 
 .container3 {
