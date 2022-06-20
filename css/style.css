@@ -115,28 +115,34 @@
 }
 .image2 {
   width: 50%;
-  height: 50vh;
-  margin-top: 40vh;
+  height: 70vh;
+  margin-top: 10vh;
   position: absolute;
   right: 0;
-  margin-right: 2%;
+  margin-right: 0%;
 }
 .image2 img {
-  width: 99%;
-  height: auto;
-  border-radius: 50px;
+  width: auto;
+  height: 99%;
+  position: absolute;
+  right: 0;
+  margin-right: 5%;
 }
 
 .page3 {
   width: 100%;
   height: 80vh;
   display: flex;
+  background: url(image/fone3.jpg);
+  background-size: 100% auto;
+  background-position: center;
+  background-attachment: fixed;
 }
 .page3-1 {
   width: 49.5%;
   height: 80vh;
   background-color: gray;
-  background: url(image/fone5.jpg);
+  background: url(/image/fone5.jpg);
   background-size: 100% auto;
   background-position: center;
 }
@@ -144,16 +150,16 @@
   width: 80%;
   height: 25vh;
   margin-left: 10%;
-  margin-top: 5%;
+  margin-top: 3%;
   /*border: solid 1px;
   border-color: white;*/
 }
 .content3 p {
   font-size: 145%;
-  line-height: 28px; /*расстояние между строками*/
+  line-height: 25px; /*расстояние между строками*/
   text-indent: 25px; /*красная строка*/
   color: white;
-  padding-top: 3vh;
+  padding-top: -1vh;
   font-family: 'Ubuntu', sans-serif;
 }
 .image3 {
@@ -162,15 +168,16 @@
   /*border: solid 1px;
   border-color: white;*/
   margin-left: 20%;
-  margin-top: 3%;
+  margin-top: 0;
 }
 .image3 img {
   width: 100%;
   height: auto;
   border-radius: 10px;
+  position: relative;
+  top: 10vh;
 }
 .page3-1-5 {
-  background-color: black;
   height: 80vh;
   width: 1%;
 }
@@ -178,7 +185,7 @@
   width: 49.5%;
   height: 80vh;
   background-color: #7d746d;
-  background: url(image/fone6.jpg);
+  background: url(/image/fone6.jpg);
   background-size: 200% auto;
   background-position: top right;
   background-repeat: no-repeat;
@@ -200,16 +207,16 @@
   width: 80%;
   height: 25vh;
   margin-left: 10%;
-  /*: solid 1px;
+  /*border: solid 1px;
   border-color: white;*/
   margin-top: 5%;
 }
 .content4 p {
   font-size: 145%;
-  line-height: 28px; /*расстояние между строками*/
+  line-height: 25px; /*расстояние между строками*/
   text-indent: 25px; /*красная строка*/
   color: white;
-  margin-top: 10vh;
+  margin-top: 0vh;
   font-family: 'Ubuntu', sans-serif;
 }
 .page4 {
