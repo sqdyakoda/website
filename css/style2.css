@@ -91,6 +91,18 @@
    margin-top: -5px;
 }
 
+.card3 img {
+   width: 100%;
+   height: auto;
+}
+
+.card3 p {
+   text-align: center;
+   font-size: 150%;
+   font-family: 'Roboto Mono', monospace;
+   margin-top: -5px;
+}
+
 .content1 {
    width: 200px;
    height: 200px;
@@ -127,6 +139,11 @@
       0 0 0 7px rgb(147, 147, 147);
 }
 
+.card3:hover {
+   box-shadow: 0 0 0 7px rgb(147, 147, 147),
+      0 0 0 7px rgb(147, 147, 147);
+}
+
 .empty {
    width: 10%;
 }
@@ -146,6 +163,18 @@
 }
 
 .card2 p {
+   text-align: center;
+   font-size: 150%;
+   font-family: 'Roboto Mono', monospace;
+   margin-top: -5px;
+}
+
+.card4 img {
+   width: 100%;
+   height: auto;
+}
+
+.card4 p {
    text-align: center;
    font-size: 150%;
    font-family: 'Roboto Mono', monospace;
@@ -184,6 +213,11 @@
 }
 
 .card2:hover:hover {
+   box-shadow: 0 0 0 7px rgb(147, 147, 147),
+      0 0 0 7px rgb(147, 147, 147);
+}
+
+.card4:hover:hover {
    box-shadow: 0 0 0 7px rgb(147, 147, 147),
       0 0 0 7px rgb(147, 147, 147);
 }
@@ -230,4 +264,22 @@
 .darkfone {
    height: 20vh;
    background-color: black;
+}
+
+.card3 {
+   background-color: rgb(174, 174, 174);
+   width: 300px;
+   height: 380px;
+   border-radius: 20px;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+.card4 {
+   background-color: rgb(174, 174, 174);
+   width: 300px;
+   height: 380px;
+   border-radius: 20px;
+   transition: 0.5s;
+   cursor: pointer;
 }
