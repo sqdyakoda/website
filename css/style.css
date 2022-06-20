@@ -106,9 +106,8 @@
   font-size: 145%;
   text-decoration: none;
   color: #f0f0f0;
-  font-style: italic;
   font-family: 'Ubuntu', sans-serif;
-  padding-top: 10vh;фффффф
+  padding-top: 10vh;
 }
 .button1:hover {
   transition: 0.5s;
@@ -254,7 +253,6 @@
   margin-top: 0vh;
   color: black;
   color: #f0f0f0;
-  font-style: italic;
   font-family: 'Ubuntu', sans-serif;
 }
 .page5 {
