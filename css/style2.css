@@ -82,25 +82,27 @@
 .card1 img {
    width: 100%;
    height: auto;
+   border-radius: 15px;
 }
 
 .card1 p {
    text-align: center;
    font-size: 150%;
    font-family: 'Ubuntu', sans-serif;
-   margin-top: -5px;
+   margin-top: 7px;
 }
 
 .card3 img {
    width: 100%;
    height: auto;
+   border-radius: 15px;
 }
 
 .card3 p {
    text-align: center;
    font-size: 150%;
    font-family: 'Ubuntu', sans-serif;
-   margin-top: -5px;
+   margin-top: 7px;
 }
 
 .content1 {
@@ -160,25 +162,27 @@
 .card2 img {
    width: 100%;
    height: auto;
+   border-radius: 15px;
 }
 
 .card2 p {
    text-align: center;
    font-size: 150%;
    font-family: 'Ubuntu', sans-serif;
-   margin-top: -5px;
+   margin-top: 7px;
 }
 
 .card4 img {
    width: 100%;
    height: auto;
+   border-radius: 15px;
 }
 
 .card4 p {
    text-align: center;
    font-size: 150%;
    font-family: 'Ubuntu', sans-serif;
-   margin-top: -5px;
+   margin-top: 7px;
 }
 
 .content2 {
