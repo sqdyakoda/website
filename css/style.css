@@ -158,7 +158,7 @@
   line-height: 25px; /*расстояние между строками*/
   text-indent: 25px; /*красная строка*/
   color: white;
-  padding-top: -1vh;
+  padding-top: 0vh;
   font-family: 'Ubuntu', sans-serif;
 }
 .image3 {
@@ -174,7 +174,7 @@
   height: auto;
   border-radius: 10px;
   position: relative;
-  top: 10vh;
+  top: 60px;
 }
 .page3-1-5 {
   height: 80vh;
@@ -208,7 +208,7 @@
   margin-left: 10%;
   /*border: solid 1px;
   border-color: white;*/
-  margin-top: 5%;
+  margin-top: 30px;
 }
 .content4 p {
   font-size: 145%;
